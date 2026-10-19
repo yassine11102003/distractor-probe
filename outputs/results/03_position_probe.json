@@ -1,0 +1,33 @@
+{
+  "chance": 0.0625,
+  "n_train_images": 1000,
+  "n_test_images": 1000,
+  "models": {
+    "dinov2": {
+      "position_variance_share": 0.0683,
+      "accuracy": {
+        "raw": {
+          "row": 0.506125,
+          "col": 0.54025
+        },
+        "position_removed": {
+          "row": 0.08,
+          "col": 0.0704375
+        }
+      }
+    },
+    "dinov2_reg": {
+      "position_variance_share": 0.0559,
+      "accuracy": {
+        "raw": {
+          "row": 0.3536875,
+          "col": 0.409875
+        },
+        "position_removed": {
+          "row": 0.0768125,
+          "col": 0.0675625
+        }
+      }
+    }
+  }
+}

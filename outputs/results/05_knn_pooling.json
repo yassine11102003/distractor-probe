@@ -1,0 +1,17 @@
+{
+  "k": 20,
+  "chance": 0.1,
+  "n_test_images": 1000,
+  "models": {
+    "dinov2": {
+      "mean_pool": 0.982,
+      "mean_pool_no_outliers": 0.982,
+      "cls": 0.995
+    },
+    "dinov2_reg": {
+      "mean_pool": 0.983,
+      "mean_pool_no_outliers": 0.983,
+      "cls": 0.993
+    }
+  }
+}

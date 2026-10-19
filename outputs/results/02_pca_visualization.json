@@ -1,0 +1,22 @@
+{
+  "images": [
+    "data/imagenette2-320/val/n01440764/ILSVRC2012_val_00009111.JPEG",
+    "data/imagenette2-320/val/n02979186/n02979186_21401.JPEG",
+    "data/imagenette2-320/val/n03394916/ILSVRC2012_val_00007921.JPEG",
+    "data/imagenette2-320/val/n03425413/n03425413_18390.JPEG"
+  ],
+  "explained_variance_top3": {
+    "dinov2": [
+      0.334,
+      0.375,
+      0.321,
+      0.328
+    ],
+    "dinov2_reg": [
+      0.317,
+      0.381,
+      0.353,
+      0.374
+    ]
+  }
+}

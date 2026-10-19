@@ -1,0 +1,27 @@
+{
+  "rule": "norme > m\u00e9diane + 3.0 x IQR",
+  "models": {
+    "dinov2": {
+      "median_norm": 84.68,
+      "threshold": 119.02,
+      "max_norm": 151.73,
+      "pct_outlier_tokens": 0.397,
+      "pct_images_with_outlier": 79.25,
+      "mean_outliers_per_affected_image": 1.28,
+      "pool_cosine_mean_all_images": 0.99994,
+      "pool_cosine_mean_affected_images": 0.99993,
+      "pool_cosine_min": 0.99391
+    },
+    "dinov2_reg": {
+      "median_norm": 255.25,
+      "threshold": 372.41,
+      "max_norm": 422.19,
+      "pct_outlier_tokens": 0.037,
+      "pct_images_with_outlier": 1.5,
+      "mean_outliers_per_affected_image": 6.27,
+      "pool_cosine_mean_all_images": 0.99998,
+      "pool_cosine_mean_affected_images": 0.99882,
+      "pool_cosine_min": 0.98909
+    }
+  }
+}

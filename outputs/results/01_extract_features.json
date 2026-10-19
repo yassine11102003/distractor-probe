@@ -1,0 +1,47 @@
+{
+  "models": {
+    "dinov2": {
+      "hub_name": "dinov2_vitl14",
+      "n_register_tokens": 0,
+      "shapes": {
+        "patch_norm": [
+          2000,
+          256,
+          1024
+        ],
+        "patch_prenorm": [
+          2000,
+          256,
+          1024
+        ],
+        "cls": [
+          2000,
+          1024
+        ]
+      },
+      "seconds": 41.3
+    },
+    "dinov2_reg": {
+      "hub_name": "dinov2_vitl14_reg",
+      "n_register_tokens": 4,
+      "shapes": {
+        "patch_norm": [
+          2000,
+          256,
+          1024
+        ],
+        "patch_prenorm": [
+          2000,
+          256,
+          1024
+        ],
+        "cls": [
+          2000,
+          1024
+        ]
+      },
+      "seconds": 51.2
+    }
+  },
+  "n_images": 2000
+}
